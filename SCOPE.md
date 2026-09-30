@@ -1,26 +1,18 @@
 # What this repository covers, and what it does not
 
-A short note for the corresponding author and for reviewers, so that the
+A short note for readers and reviewers, so that the
 boundary of this deposit is explicit rather than inferred.
 
-## The generalized estimating equation models are not here
+## The generalised estimating equation models are not here
 
-The paper reports generalized estimating equation models. **No GEE is fitted
-anywhere in this repository, and none was fitted by the codebase these scripts
-were extracted from.** This was checked rather than assumed: the full set of
-statistical routines invoked across every analysis contributing to Figure 5 and
-Extended Data Figure 7 is ordinary least squares regression, Spearman
-correlation, Benjamini-Hochberg and Holm multiplicity correction, Wilcoxon
-signed-rank, Friedman, exact binomial, Fisher's exact test, logistic
-regression, a permutation test, and recovery of a z statistic from a p-value.
-
-The GEE models therefore belong to a different analysis, most plausibly a
-repeated-measures analysis of the longitudinal behavioural or clinical data.
-Whoever fitted them holds that code and should deposit it, either alongside
-this repository or as a second deposit referenced from the data availability
-statement. It cannot be reconstructed here, and reconstructing a model of that
-kind without its original data and specification would produce something that
-looks like the published analysis without being it.
+The paper reports generalised estimating equation models of the mouse
+behavioural data. These were fitted separately and are not part of this
+repository. No GEE is fitted by any script here. The statistical routines used
+across the analyses contributing to Figure 5 and Extended Data Figure 7 are
+ordinary least squares regression, Spearman correlation, Benjamini-Hochberg
+and Holm multiplicity correction, Wilcoxon signed-rank, Friedman, exact
+binomial, Fisher's exact test, logistic regression, a permutation test, and
+recovery of a z statistic from a p-value.
 
 ## Also not here
 
