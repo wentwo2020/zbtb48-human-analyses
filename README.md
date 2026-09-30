@@ -133,7 +133,8 @@ ICD-10 chapter alone gets this wrong.
 | Ensembl | current | REST API, variant coordinates only |
 
 Analyses not covered by this repository use published human dorsal root
-ganglion data (Ray et al. 2023; GSE77968 and GSE78150), the longitudinal whole
+ganglion data (Ray et al. 2023, dbGaP phs001158.v2.p1; Hall et al. 2022,
+dbGaP phs002548.v1.p1), the longitudinal whole
 blood cohort GSE177034, GWAS Catalog studies GCST90474133 and GCST90038656,
 and BioBank Japan summary statistics (PMID 34594039).
 
