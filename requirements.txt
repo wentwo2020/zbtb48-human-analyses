@@ -1,0 +1,9 @@
+# Versions are those the published analyses were run under.
+# Python 3.11 or later.
+numpy==2.4.6
+pandas==2.3.3
+scipy==1.17.1
+statsmodels==0.14.6
+requests==2.34.2
+matplotlib==3.11.0
+h5py==3.16.0

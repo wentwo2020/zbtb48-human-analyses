@@ -1,0 +1,5 @@
+# Extra requirements for src/04_snrna_cellxgene_spinal.py only.
+# These are heavier than the rest and pull in a TileDB stack, so they are kept
+# out of the main requirements file.
+cellxgene-census==1.18.0
+tiledbsoma==2.3.0

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "ZBTB48 human analyses"
+abstract: >
+  Analysis code for the human data in Muralidharan et al. Reanalyses of GTEx,
+  CZ CELLxGENE Discover, GEO single-nucleus datasets and FinnGen R12.
+license: MIT
+authors:
+  - family-names: "Muralidharan"
+    given-names: "Arjun"
+    affiliation: "The University of Sydney"
+  - family-names: "Neely"
+    given-names: "G. Gregory"
+    affiliation: "The University of Sydney"
+preferred-citation:
+  type: article
+  title: "ZBTB48 maintains neuropathic pain in the aged nervous system"
+  year: 2026
+  authors:
+    - family-names: "Muralidharan"
+      given-names: "Arjun"
+    - family-names: "Neely"
+      given-names: "G. Gregory"
